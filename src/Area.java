@@ -1,6 +1,4 @@
 import javax.swing.*;
-
-import java.awt.HeadlessException;
 import java.util.*;
 public class Area {
     public static void main(String[] args) {
@@ -23,18 +21,18 @@ public class Area {
                          System.out.println("El valor del area es "+(base*altura)/2);
                          break;
                 case 4:
-                     int radio=   Integer.parseInt(JOptionPane.showInputDialog("ingrese el valor del radio en centimetros "));
+                     int radio= Integer.parseInt(JOptionPane.showInputDialog("ingrese el valor del radio en centimetros "));
                     System.out.print("El valor del area del circulo es ");
                     System.out.println(Math.PI*(Math.pow(radio, 2)));
                     break;
+                    default:
+                    System.out.println("la opcion no esta contemplada ");
 
             }
-        } catch (NumberFormatException | HeadlessException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        } 
         }
 
 
 
     }
-}
+
