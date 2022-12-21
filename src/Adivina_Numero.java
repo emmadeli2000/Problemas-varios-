@@ -7,6 +7,9 @@ public class Adivina_Numero {
       int intentos=0;
       
       while (aleatorio!=numero) {
+        
+        intentos++;
+        
         System.out.println("introduce un numero del 0 al 100");
         numero=entrada.nextInt();
 
@@ -16,7 +19,7 @@ public class Adivina_Numero {
         }else if (numero<aleatorio){
             System.out.println("el numero que buscas es mayor al introducido");
         }
-        intentos++;
+        
             
         } System.out.println("la respuesta es correcta ");
         System.out.println("lo has logrado en "+ intentos+" intentos" );
