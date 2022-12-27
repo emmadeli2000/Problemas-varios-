@@ -10,7 +10,7 @@ public class factorial {
         }
         System.out.println("El resultado de factorizar al numero "+numero+" es "+resultado);
         
-    }
+    }//video 24
 
     
 }
