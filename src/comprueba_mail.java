@@ -19,6 +19,6 @@ public class comprueba_mail {
                 System.out.println("es incorrecto ");
             }
 
-}
+    }
 
 }// video 22
