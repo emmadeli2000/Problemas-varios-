@@ -3,7 +3,10 @@ package poo;
 public class Uso_Coche {
     public static void main(String[] args) {
         Coche renault= new Coche();
-        System.out.println("este vehiculo posee "+renault.ruedas+ " ruedas");
+        renault.setcolor("rojo");
+        System.out.println("el color del coche es "+renault.getcolor() );
+        System.out.println(renault.dime_datos_generales());
+        
     }
     
 }
