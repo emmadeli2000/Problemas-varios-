@@ -1,7 +1,4 @@
 package poo;
-
-import javax.print.DocFlavor.STRING;
-
 public class Coche {
 
    private int ruedas;
