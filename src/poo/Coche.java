@@ -1,7 +1,4 @@
 package poo;
-
-import javax.swing.plaf.TreeUI;
-
 public class Coche {
 
    private int ruedas;
