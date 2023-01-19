@@ -70,3 +70,4 @@ class empleado{
      private Date altacontrato;
 }
 //en gregorianCalendar eneroes el mes 0, se com¿nstruye al = que la clase scanner
+//video 38
