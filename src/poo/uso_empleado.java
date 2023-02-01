@@ -15,10 +15,11 @@ public class uso_empleado {
         System.out.println("Nombre: "+empleado3.dame_nombre()+" Sueldo: "+empleado3.dime_sueldo()+" fecha de alta: "+empleado3.altaFechaContrato());
     */
 
-        empleado[]misEmpleados=new empleado[3];
+        empleado[]misEmpleados=new empleado[4];
         misEmpleados[0]=new empleado("Paco Gomez", 85000, 1990, 12, 17);
         misEmpleados[1]=new empleado("Ana Lopez", 95000, 1995, 06, 02);
         misEmpleados[2]=new empleado("Maria Martin", 105000, 2002, 03, 15);
+        misEmpleados[3]=new empleado("Elias Agustin");
 
         /*for(int i=0;i>misEmpleados.length;i++){
             misEmpleados[i].subeSueldo(5);
@@ -51,6 +52,9 @@ class empleado{
         altacontrato=calendario.getTime();//gettime heredado
 
     }
+    public empleado(String nom){
+        this(nom,30000,2000,01,01);
+    }
     public String dame_nombre(){
         return nombre;
     }
@@ -70,4 +74,4 @@ class empleado{
      private Date altacontrato;
 }
 //en gregorianCalendar eneroes el mes 0, se com¿nstruye al = que la clase scanner
-//video 38
+//video 42
